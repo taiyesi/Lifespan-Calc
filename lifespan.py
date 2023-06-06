@@ -1,0 +1,6 @@
+age = 90 - int(input("what is your age? "))
+year_in_days = 365 * int(age)
+year_in_weeks = 52 * int(age)
+year_in_months = 12 * int(age)
+message = (f"Given that you live until 90, you have {year_in_days} days, {year_in_weeks} weeks, and {year_in_months} months left to live.")
+print(message)
